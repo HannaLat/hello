@@ -1,18 +1,18 @@
 body {
-    background-color: #5A5766;
+    background-color: #fafafa;
     padding: 0;
+    margin: 0;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
-.main{
+.header{
     background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/BKWZJHXR57.jpg);
-    padding: 90px 0;
+    padding: 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(255,255,255, 0.6);
     background-blend-mode: overlay;
-
 }
 
 
@@ -28,6 +28,7 @@ body {
     font-family: 'Clicker Script', cursive;
     font-size: 6em;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .subtitle{
@@ -35,6 +36,34 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.5pt;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
 
+}
+
+.container.post {
+    background: white;
+    margin-top: -60px;
+    box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.26);
+}
+
+.post-content{
+    font-size: 1.4em;
+    padding: 0 10px;
+
+}
+
+.signature {
+    text-align: right;
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.5em;
+}
+
+.signature p {
+    color: lightpink;
+}
+
+@media screen and (max-width:768px){
+    .container.post{
+        margin-top: 30px;
+    }
 }
