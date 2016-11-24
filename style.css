@@ -1,0 +1,30 @@
+body {
+    background-color: #5A5766;
+    padding: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    max-width: 1100px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.title {
+    font-family: 'Clicker Script', cursive;
+    font-size: 6em;
+    text-align: center;
+}
+
+.subtitle{
+    color: lightgrey;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    text-align: center;
+    font-size: 4em;
+
+}
